@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C2EB551794E35600C66250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C2EB541794E35600C66250 /* UIKit.framework */; };
+		A9C2EB571794E35600C66250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C2EB561794E35600C66250 /* Foundation.framework */; };
+		A9C2EB591794E35600C66250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C2EB581794E35600C66250 /* CoreGraphics.framework */; };
+		A9C2EB5B1794E35600C66250 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C2EB5A1794E35600C66250 /* CoreData.framework */; };
+		A9C2EB611794E35600C66250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C2EB5F1794E35600C66250 /* InfoPlist.strings */; };
+		A9C2EB631794E35600C66250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2EB621794E35600C66250 /* main.m */; };
+		A9C2EB671794E35600C66250 /* BaHaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2EB661794E35600C66250 /* BaHaAppDelegate.m */; };
+		A9C2EB691794E35600C66250 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C2EB681794E35600C66250 /* Default.png */; };
+		A9C2EB6B1794E35600C66250 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C2EB6A1794E35600C66250 /* Default@2x.png */; };
+		A9C2EB6D1794E35600C66250 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C2EB6C1794E35600C66250 /* Default-568h@2x.png */; };
+		A9C2EB701794E35600C66250 /* BaHa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C2EB6E1794E35600C66250 /* BaHa.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9C2EB511794E35600C66250 /* BaHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C2EB541794E35600C66250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9C2EB561794E35600C66250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9C2EB581794E35600C66250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9C2EB5A1794E35600C66250 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9C2EB5E1794E35600C66250 /* BaHa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaHa-Info.plist"; sourceTree = "<group>"; };
+		A9C2EB601794E35600C66250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9C2EB621794E35600C66250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C2EB641794E35600C66250 /* BaHa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaHa-Prefix.pch"; sourceTree = "<group>"; };
+		A9C2EB651794E35600C66250 /* BaHaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaHaAppDelegate.h; sourceTree = "<group>"; };
+		A9C2EB661794E35600C66250 /* BaHaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaHaAppDelegate.m; sourceTree = "<group>"; };
+		A9C2EB681794E35600C66250 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9C2EB6A1794E35600C66250 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9C2EB6C1794E35600C66250 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9C2EB6F1794E35600C66250 /* BaHa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaHa.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C2EB4E1794E35600C66250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C2EB551794E35600C66250 /* UIKit.framework in Frameworks */,
+				A9C2EB571794E35600C66250 /* Foundation.framework in Frameworks */,
+				A9C2EB591794E35600C66250 /* CoreGraphics.framework in Frameworks */,
+				A9C2EB5B1794E35600C66250 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C2EB481794E35600C66250 = {
+			isa = PBXGroup;
+			children = (
+				A9C2EB5C1794E35600C66250 /* BaHa */,
+				A9C2EB531794E35600C66250 /* Frameworks */,
+				A9C2EB521794E35600C66250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C2EB521794E35600C66250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2EB511794E35600C66250 /* BaHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C2EB531794E35600C66250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2EB541794E35600C66250 /* UIKit.framework */,
+				A9C2EB561794E35600C66250 /* Foundation.framework */,
+				A9C2EB581794E35600C66250 /* CoreGraphics.framework */,
+				A9C2EB5A1794E35600C66250 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9C2EB5C1794E35600C66250 /* BaHa */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2EB651794E35600C66250 /* BaHaAppDelegate.h */,
+				A9C2EB661794E35600C66250 /* BaHaAppDelegate.m */,
+				A9C2EB6E1794E35600C66250 /* BaHa.xcdatamodeld */,
+				A9C2EB5D1794E35600C66250 /* Supporting Files */,
+			);
+			path = BaHa;
+			sourceTree = "<group>";
+		};
+		A9C2EB5D1794E35600C66250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2EB5E1794E35600C66250 /* BaHa-Info.plist */,
+				A9C2EB5F1794E35600C66250 /* InfoPlist.strings */,
+				A9C2EB621794E35600C66250 /* main.m */,
+				A9C2EB641794E35600C66250 /* BaHa-Prefix.pch */,
+				A9C2EB681794E35600C66250 /* Default.png */,
+				A9C2EB6A1794E35600C66250 /* Default@2x.png */,
+				A9C2EB6C1794E35600C66250 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C2EB501794E35600C66250 /* BaHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C2EB731794E35600C66250 /* Build configuration list for PBXNativeTarget "BaHa" */;
+			buildPhases = (
+				A9C2EB4D1794E35600C66250 /* Sources */,
+				A9C2EB4E1794E35600C66250 /* Frameworks */,
+				A9C2EB4F1794E35600C66250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaHa;
+			productName = BaHa;
+			productReference = A9C2EB511794E35600C66250 /* BaHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C2EB491794E35600C66250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BaHa;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = bamakeji;
+			};
+			buildConfigurationList = A9C2EB4C1794E35600C66250 /* Build configuration list for PBXProject "BaHa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9C2EB481794E35600C66250;
+			productRefGroup = A9C2EB521794E35600C66250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C2EB501794E35600C66250 /* BaHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C2EB4F1794E35600C66250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C2EB611794E35600C66250 /* InfoPlist.strings in Resources */,
+				A9C2EB691794E35600C66250 /* Default.png in Resources */,
+				A9C2EB6B1794E35600C66250 /* Default@2x.png in Resources */,
+				A9C2EB6D1794E35600C66250 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C2EB4D1794E35600C66250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C2EB631794E35600C66250 /* main.m in Sources */,
+				A9C2EB671794E35600C66250 /* BaHaAppDelegate.m in Sources */,
+				A9C2EB701794E35600C66250 /* BaHa.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9C2EB5F1794E35600C66250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C2EB601794E35600C66250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C2EB711794E35600C66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9C2EB721794E35600C66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C2EB741794E35600C66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaHa/BaHa-Prefix.pch";
+				INFOPLIST_FILE = "BaHa/BaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9C2EB751794E35600C66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaHa/BaHa-Prefix.pch";
+				INFOPLIST_FILE = "BaHa/BaHa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C2EB4C1794E35600C66250 /* Build configuration list for PBXProject "BaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C2EB711794E35600C66250 /* Debug */,
+				A9C2EB721794E35600C66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C2EB731794E35600C66250 /* Build configuration list for PBXNativeTarget "BaHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C2EB741794E35600C66250 /* Debug */,
+				A9C2EB751794E35600C66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9C2EB6E1794E35600C66250 /* BaHa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9C2EB6F1794E35600C66250 /* BaHa.xcdatamodel */,
+			);
+			currentVersion = A9C2EB6F1794E35600C66250 /* BaHa.xcdatamodel */;
+			path = BaHa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9C2EB491794E35600C66250 /* Project object */;
+}
